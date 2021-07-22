@@ -1,0 +1,7 @@
+
+
+## Neuromorphic
+
+### Nengo FPGA or FPAA Backend
+* The Nengo-FPGA backend supports one ensemble all on a small board.
+* RISC-V or Arm backend
