@@ -1,5 +1,9 @@
 
+## Why is This an Important Research Topic?
+Nengo provides a common abstraction for developing SNNs using neurons and ensembles. Mapping new backends enables us to use the same codebase to target new and novel architectures.
 
+## Current Status
+This project was initiated by Terry Stewart and others at the 2021 Telluride workshop.
 
 [Relevant repo from Terry Stewart](https://github.com/neuromorphs/ant-nengo-backends]
 
