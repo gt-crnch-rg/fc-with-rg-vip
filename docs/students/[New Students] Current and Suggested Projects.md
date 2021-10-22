@@ -34,6 +34,7 @@ If you don't already have these skills we can help you pick them up, but all VIP
 #### Nengo FPGA or FPAA Backend
 * The Nengo-FPGA backend supports one ensemble all on a small board. We could extend this to support multiple ensembles.
 * Adding a RISC-V or Arm backend for Nengo
+* See [this page](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/main/docs/students/%5BResearch%20Ideas%5D%20Nengo%20Neuromorphic%20Backends.md) for Nengo-related research ideas.
 
 ## Reconfigurable ##
 * **What's the goal?** The reconfigurable subteam is focused on building new and unique accelerators based on the RISC-V architecture.
