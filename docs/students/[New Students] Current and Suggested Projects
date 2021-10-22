@@ -31,9 +31,11 @@ If you don't already have these skills we can help you pick them up, but all VIP
 * Work with the [Field Programmable Analog Array](https://en.wikipedia.org/wiki/Field-programmable_analog_array) device to design an interface between the PYNN simulator and this novel hardware.
 * Evaluate TensorFlow and eventually Nengo implementations for tasks defined by the [OpenAI Gym](https://gym.openai.com/). These types of tasks are more complicated benchmarks that provide examples of complicated problems that neuromorphic systems could solve efficiently. 
 
+#### Nengo FPGA or FPAA Backend
+* The Nengo-FPGA backend supports one ensemble all on a small board. We could extend this to support multiple ensembles.
+* Adding a RISC-V or Arm backend for Nengo
+
 ## Reconfigurable ##
-
-
 * **What's the goal?** The reconfigurable subteam is focused on building new and unique accelerators based on the RISC-V architecture.
 * **What current work is going on with this sub-team?** 
     * Most recently the reconfigurable subteam  
