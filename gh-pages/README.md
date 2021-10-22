@@ -10,7 +10,7 @@ We hope that you will learn about an interesting research area from  your chosen
 
 - Development
   - Using remote servers with SSH, X forwarding, and VNC
-  - Understanding how "[paths](main/docs/[Linux] Understanding PATHs)" and other basic commands work in Linux.
+  - Understanding how [paths](main/docs/[Linux] Understanding PATHs) and other basic commands work in Linux.
   - Debugging and writing minimum reproducible examples to ask for assistance in debugging
   - Documenting code so that others can understand it later
 - Collaboration
