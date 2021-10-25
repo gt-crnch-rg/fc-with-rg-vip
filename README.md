@@ -1,4 +1,6 @@
 # Future Computing with the Rogues Gallery
 This repository provides a public presence for the Georgia Tech Future Computing with the Rogues Gallery VIP course, started in 2019.
 
-Please check back soon for more information on student posters, project topics, and general information for prospective students and external parties.
+Please check through the old syllabus, documents, and the old posters to see previous projects for this VIP. Additionally, please check out the [suggested projects page](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/main/docs/students/%5BNew%20Students%5D%20Current%20and%20Suggested%20Projects.md).
+
+Instructor: [Dr. Jeffrey Young](https://jyoung3131.github.io/)
