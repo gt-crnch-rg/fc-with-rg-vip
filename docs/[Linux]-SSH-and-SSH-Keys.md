@@ -166,21 +166,21 @@ Adding the following to ~/.ssh/config hides the layers.  With these, you can `ss
 ```
 Host crnch
   HostName rg-login.crnch.gatech.edu
-  User eriedy3
+  User gburdell
 
 Host fpaa
   HostName rg-fpaa-host.crnch.gatech.edu
-  User eriedy3
+  User gburdell
   ProxyJump crnch
 
 Host karrawingi-login
   HostName karrawingi-login.crnch.gatech.edu
-  User eriedy3
+  User gburdell
   ProxyJump crnch
 
 Host kn1
   Hostname n1
-  User eriedy3
+  User gburdell
   ProxyJump karrawingi-login
 ```
 
