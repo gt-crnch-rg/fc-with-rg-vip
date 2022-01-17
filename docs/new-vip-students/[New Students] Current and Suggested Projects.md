@@ -1,9 +1,13 @@
-_Last updated: 8/24/20_
+_Last updated: 1/17/22_
 
 Broadly, we have 3-4 sub-teams focused on different research topics related to novel architectures and mapping algorithms to unique or "rogue" platforms.
 
 ## Required Skills for all Projects ##
 If you don't already have these skills we can help you pick them up, but all VIP team members will need to be familiar with the following skills: a basic understanding of using Linux and/or the terminal, ssh, accessing X-based software remotely, and some general experience with programming in C, C++, or Python (usually taught in CS 1301).
+
+Reviewing the following is highly suggested. You don't have to be an expert but having some familiarity will be highly helpful!
+* [Linux](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/main/docs/linux/%5BLinux%5D-General-Linux-FAQs.md) - Focus on the MIT Missing Semester and basic Linux command-line skills
+* [C and C++ Programming](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/main/docs/development/%5BDevelopment%5D-Resources-C-Plus-Plus.md)
 
 ## Near-memory ##
 
@@ -15,6 +19,13 @@ If you don't already have these skills we can help you pick them up, but all VIP
 * **Desired skills:** Experience with Cilk, scikit-learn, or parallel programming with a language like OpenMP (CX 4220).
 * **Relevant courses**: CX 4220, CS 6220, CS/CSE 6290
 * **Future opportunities:** This work is of relevance to national labs working on the "Exascale Computing Project" and can lead to opportunities in either parallel programming or further massively parallel implementations of graph, machine learning, or sparse algorithms. 
+
+### Suggested Near-Memory Projects for 2022
+We currently have received two new "Lucata Pathfinder" systems, which provide some opportunity for running larger scale applications written in the Cilk programming language. We would suggest the following as interesting projects that students could tackle:
+* Help run Graph500 benchmarking at scale and profile it with the Lucata tools.
+* Develop and run the Stream and gather/scatter benchmarks for Pathfinder via Jupyter notebook.
+* Revisit using scikit-learn to run basic ML tasks on the Pathfinder platform.
+* Test out either the GraphBLAS or Kokkos API for the Pathfinder system.
 
 ## Neuromorphic ##
 
