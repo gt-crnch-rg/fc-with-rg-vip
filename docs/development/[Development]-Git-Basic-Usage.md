@@ -23,7 +23,9 @@ If you'd like to learn via an interactive, online tutorial (before installing gi
 
 - [Try Git](https://try.github.io): Provides a 15 minute online tutorial including all the basics including adding, commiting, pushing files and handling history and merges.
 
-- [Understanding Git branching](http://learngitbranching.js.org/): This comprehensive tutorial goes through git branching in great detail. Git branching 
+- [Understanding Git branching](http://learngitbranching.js.org/): This comprehensive tutorial goes through git branching in great detail. 
+   
+- [Software Carpentry Git Novice](https://swcarpentry.github.io/git-novice/): A comprehensive git basics tutorial.
 
 ### More Advanced Git Resources
 
