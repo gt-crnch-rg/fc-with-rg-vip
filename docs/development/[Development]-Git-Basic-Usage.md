@@ -48,4 +48,4 @@ While commandline seems to be the best option, especially for development on rem
     * From the git directory run the following command: `git config credential.helper 'cache --timeout=300'`
 * How can I speed up cloning of very large repos (e.g., cloning spack or something similar)
     * If you don't need all the commit history you can use the `--depth <N>` parameter. As an example `git clone --depth 1 https://github.com/spack/spack.git` will not pull any history but will also be about 6x faster to clone.
-    * You can also use git config features like manyFiles As an example, `git clone -c feature.manyFiles=true https://github.com/spack/spack.git` OR `git config feature.manyFiles true`
+    * You can also use git config features like manyFiles for very large repos (LLVM, Linux kernel). As an example, `git clone -c feature.manyFiles=true https://github.com/spack/spack.git` OR `git config feature.manyFiles true`
