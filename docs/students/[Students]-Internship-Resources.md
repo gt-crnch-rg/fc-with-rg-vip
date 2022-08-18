@@ -16,7 +16,7 @@ Take advantage of the many GT resources for crafting a solid resume!
 * Sandia TITANS - software systems and data analytics
     * https://www.sandia.gov/titans/
 
-* [Santa Fe Institute Program for Undergraduate Complexity Research](https://santafe.edu/engage/learn/schools/undergraduate-complexity-research) - January 11th, 2021 deadline
+* [Santa Fe Institute Program for Undergraduate Complexity Research](https://santafe.edu/engage/learn/schools/undergraduate-complexity-research) 
 
 * Sandia Neuromorphic
     * https://www.sandia.gov/careers/ps-forward.html You need to search for the job number 669269
