@@ -5,9 +5,13 @@ Take advantage of the many GT resources for crafting a solid resume!
 
 
 
-## Summer 2021 - note that many of the Department of Energy internships have deadlines in January, 2020.
+## Summer - note that many of the Department of Energy internships have deadlines in January
 
-* [IBM Quantum Internships](https://www.ibm.com/blogs/research/2020/09/2021-ibmquantum-internships/) - Nov. 2nd, 2020 deadline
+* [IBM Quantum Internships](https://www.ibm.com/quantum/qurip) - January 15th, 2022
+
+* [LANL Summer Schools (ISTI)](https://www.lanl.gov/projects/national-security-education-center/information-science-technology/summer-schools/index.php)
+    * Parallel Computing Research Internship
+    * Supercomputing Institute  
 
 * Sandia TITANS - software systems and data analytics
     * https://www.sandia.gov/titans/
