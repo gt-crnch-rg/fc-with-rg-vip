@@ -1,4 +1,4 @@
-_Last updated: 1/17/22_
+_Last updated: 8/29/22_
 
 Broadly, we have 3-4 sub-teams focused on different research topics related to novel architectures and mapping algorithms to unique or "rogue" platforms.
 
@@ -13,6 +13,8 @@ Reviewing the following is highly suggested. You don't have to be an expert but 
 
 * **What's the goal?** This research aims to map novel architectures to the Emu Chick. This platform is novel because it moves the computation to the data instead of moving the data through a traditional cache hierarchy.
 * **What current work is going on with this sub-team?** 
+    * In 2022, we are looking at evaluating the GraphBLAS API as a high-level method for implementing codes on the Lucata Pathfinder system. 
+* **What are some previous projects for this sub-team?**
     * In Spring 2020, a student mapped prefix sum, an important algorithm for parallel computation to the Emu Chick and evaluated its performance.
     * The Emu sub-team worked on mapping SciKit-Learn algorithms to the Emu Chick using Python and SWIG in 2019. 
 * **Required skills:** Experience with programming in C or C++ would be a big benefit as well as experience with parallel programming.
@@ -21,11 +23,15 @@ Reviewing the following is highly suggested. You don't have to be an expert but 
 * **Future opportunities:** This work is of relevance to national labs working on the "Exascale Computing Project" and can lead to opportunities in either parallel programming or further massively parallel implementations of graph, machine learning, or sparse algorithms. 
 
 ### Suggested Near-Memory Projects for 2022
-We currently have received two new "Lucata Pathfinder" systems, which provide some opportunity for running larger scale applications written in the Cilk programming language. We would suggest the following as interesting projects that students could tackle:
+We currently have received four new "Lucata Pathfinder" systems, which provide some opportunity for running larger scale applications written in the Cilk programming language. We would suggest the following as interesting projects that students could tackle:
 * Help run Graph500 benchmarking at scale and profile it with the Lucata tools.
 * Develop and run the Stream and gather/scatter benchmarks for Pathfinder via Jupyter notebook.
 * Revisit using scikit-learn to run basic ML tasks on the Pathfinder platform.
-* Test out either the GraphBLAS or Kokkos API for the Pathfinder system.
+* Test out and develop the GraphBLAS or Kokkos API for the Pathfinder system with key benchmarks (BFS, Jaccard, etc.).
+
+### Near-memory Resources
+* [Main Pathfinder Getting Started Page](https://gt-crnch-rg.readthedocs.io/en/main/lucata/lucata-getting-started.html)
+* [GT Github for the VIP team](https://github.gatech.edu/crnch-rg/vip-near-mem-team)
 
 ## Neuromorphic ##
 
