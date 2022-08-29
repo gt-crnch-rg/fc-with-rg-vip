@@ -24,6 +24,9 @@ Reviewing the following is highly suggested. You don't have to be an expert but 
 
 ### Suggested Near-Memory Projects for 2022
 We currently have received four new "Lucata Pathfinder" systems, which provide some opportunity for running larger scale applications written in the Cilk programming language. We would suggest the following as interesting projects that students could tackle:
+* Compare x86 and Pathfinder performance for benchmarks focusing on FLOP/Watt performance.
+* Implement the SC/GC API for applications related to large-scale graph analysis
+* Design and evaluate ML-adjacent workflows for data processing
 * Help run Graph500 benchmarking at scale and profile it with the Lucata tools.
 * Develop and run the Stream and gather/scatter benchmarks for Pathfinder via Jupyter notebook.
 * Revisit using scikit-learn to run basic ML tasks on the Pathfinder platform.
