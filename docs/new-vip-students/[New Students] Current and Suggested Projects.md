@@ -18,7 +18,7 @@ Reviewing the following is highly suggested. You don't have to be an expert but 
     * In Spring 2020, a student mapped prefix sum, an important algorithm for parallel computation to the Emu Chick and evaluated its performance.
     * The Emu sub-team worked on mapping SciKit-Learn algorithms to the Emu Chick using Python and SWIG in 2019. 
 * **Required skills:** Experience with programming in C or C++ would be a big benefit as well as experience with parallel programming.
-* **Desired skills:** Experience with Cilk, scikit-learn, or parallel programming with a language like OpenMP (CX 4220).
+* **Desired skills:** Experience with Cilk, scikit-learn, or parallel programming with a language like OpenMP (usually taught in CX 4220).
 * **Relevant courses**: CX 4220/CSE 6220 (high-performance computing), CS 4290/6290; ECE 4100/6100 (computer architecture), CS 6220 (data analytics)
 * **Future opportunities:** This work is of relevance to national labs working on the "Exascale Computing Project" and can lead to opportunities in either parallel programming or further massively parallel implementations of graph, machine learning, or sparse algorithms. 
 
