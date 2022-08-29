@@ -11,7 +11,7 @@ Reviewing the following is highly suggested. You don't have to be an expert but 
 
 ## Near-memory ##
 
-* **What's the goal?** This research aims to map novel architectures to the Emu Chick. This platform is novel because it moves the computation to the data instead of moving the data through a traditional cache hierarchy.
+* **What's the goal?** This research aims to map novel architectures to the Lucata Pathfinder. This platform is novel because it moves the computation to the data instead of moving the data through a traditional cache hierarchy.
 * **What current work is going on with this sub-team?** 
     * In 2022, we are looking at evaluating the GraphBLAS API as a high-level method for implementing codes on the Lucata Pathfinder system. 
 * **What are some previous projects for this sub-team?**
@@ -19,7 +19,7 @@ Reviewing the following is highly suggested. You don't have to be an expert but 
     * The Emu sub-team worked on mapping SciKit-Learn algorithms to the Emu Chick using Python and SWIG in 2019. 
 * **Required skills:** Experience with programming in C or C++ would be a big benefit as well as experience with parallel programming.
 * **Desired skills:** Experience with Cilk, scikit-learn, or parallel programming with a language like OpenMP (CX 4220).
-* **Relevant courses**: CX 4220, CSE 6220, CS/CSE 6290
+* **Relevant courses**: CX 4220/CSE 6220 (high-performance computing), CS 4290/6290; ECE 4100/6100 (computer architecture), CS 6220 (data analytics)
 * **Future opportunities:** This work is of relevance to national labs working on the "Exascale Computing Project" and can lead to opportunities in either parallel programming or further massively parallel implementations of graph, machine learning, or sparse algorithms. 
 
 ### Suggested Near-Memory Projects for 2022
