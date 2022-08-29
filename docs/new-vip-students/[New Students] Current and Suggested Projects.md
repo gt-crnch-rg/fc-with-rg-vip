@@ -63,8 +63,11 @@ We currently have received four new "Lucata Pathfinder" systems, which provide s
 * **Future opportunities:**  
 
 ### Suggested Reconfigurable Projects
-* Work on new accelerators for the RISC-V ecosystem and test them with BOOM and the ROCC interface
-* Prof. Hyesoon Kim's lab currently has a project where they are mapping Robotic Operating System to a RISC-V BOOM core. This project involves less Chisel work but is focused on deploying an application to a soft-core RISC-V CPU that runs in an FPGA with a Linux software stack. 
+* Drone focused RISC-V and Reconfigurable Computing project
+    * This project will use a RISC-V host platform to implement a drone controller application on the [StarFive Vision platform](https://www.cnx-software.com/2021/12/09/starfive-visionfive-single-board-computer-for-sale-accelerating-risc-v-ecosystem-development/) that can be utilized for flying drones. 
+    * As a secondary goal, students will implement the drone controller functionality using the [PULP RISC-V core](https://www.pulp-platform.org/) on a [Pynq Z2 FPGA board](https://www.xilinx.com/support/university/xup-boards/XUPPYNQ-Z2.html)
+    * There are also opportunities to evaluate the use of the [RISC-V Vortex GPGPU](https://gt-crnch-rg.readthedocs.io/en/main/reconfig/vortex/vortex-riscv-gpgpu.html) in an FPGA platform.
+* Work on new accelerators for the RISC-V ecosystem and test them with BOOM and the ROCC interface using Chipyard. 
 
 ## Quantum ##
 
