@@ -41,6 +41,8 @@ We currently have received four new "Lucata Pathfinder" systems, which provide s
 * **What's the goal?** This research aims to build neural-inspired accelerators that use spiking neural networks instead of traditional digital neural networks to **efficiently** solve AI-related problems.
 * **What current work is going on with this sub-team?** 
     * The current team has worked on "NeuroCar", a spiking neural network powered autonomous vehicle platform. Previously, they have designed simulation environments using TensorFlow and Nengo and they are looking to map these trained models to a physical Raspberry Pi-based car platform.
+        * The NeuroCar work also builds on research related to [RatSlam](http://ratslam.com/).
+    * A second subteam is looking at using SNNs to evaluate EEG time-series data in a low-power setting.
 * **Required skills:** Experience with C data structures (CS 1332) is often needed to understand some of the code used. 
 * **Desired skills:** Experience with neuromorphic tools like Nengo, BRIAN, or machine learning frameworks like TensorFlow or PyTorch. 
 * Relevant courses: CS 3600 (Intro to AI) and CS 3630 (Intro Robotics and Perception), ECE 3400 (Analog Electronics) for working with the FPAA
@@ -59,7 +61,7 @@ We currently have received four new "Lucata Pathfinder" systems, which provide s
 ## Reconfigurable ##
 * **What's the goal?** The reconfigurable subteam is focused on building new and unique accelerators based on the RISC-V architecture.
 * **What current work is going on with this sub-team?** 
-    * Most recently the reconfigurable subteam  
+    * Most recently the reconfigurable subteam has worked with RISC-V accelerators using the [Chisel language](https://www.chisel-lang.org/) and the [Chipyard toolset](https://chipyard.readthedocs.io/en/latest/index.html). In Fall 2022, this team will transition to focus on the drone-related project described below. 
 * **Required skills:** Experience with programming in Verilog, VHDL, Chisel, or OpenCL is very much desired.
 * **Desired skills:** Experience designing a digital logic circuit in either Verilog, VHDL, or Chisel via class or other projects.
 * **Relevant courses**: CS 2210, CS 3320
