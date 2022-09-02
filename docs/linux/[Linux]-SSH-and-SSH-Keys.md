@@ -1,4 +1,4 @@
-_Last updated: 1/09/22_
+_Last updated: 9/02/22_
 
 SSH and terminal multiplexers like [tmux](https://tmux.github.io/) and [screen](https://www.gnu.org/software/screen/) are essential tools for working on remote servers. Tools like tmux and screen allow you to start a long-running job on a remote system, close the window and SSH session and return later to the same session. See our tmux and mosh page [here](https://github.gatech.edu/crnch-rg/rogues-docs/wiki/%5BMiscellaneous%5D-Using-Mosh-to-Access-CRNCH-Resources/_edit) for more information.
 
@@ -15,9 +15,24 @@ Most of our systems use SSH public and private keypairs to improve their securit
 
 - If you can't log in initially, don't panic! Some machines on GT's campus are behind either ECE or CS firewalls. If a machine is not responding to a simple ping, try connecting to the Georgia Tech [VPN]() and then try sshing again. 
 
-### Understanding public/private keypairs ###
+## Understanding public/private keypairs ###
 
 This [OpenSSH Tutorial](http://www.funtoo.org/OpenSSH_Key_Management,_Part_1) provides a very good overview of how public and private keys work as well as how to generate your own RSA keypair. There are three pages that cover 1) generating keys, 2) key management with *ssh-agent* and *keychain*, and 3) using *ssh agent forwarding* to reduce the need to copy your private key to other machines.
+
+### What are some key things to understand?
+When you generate a key it will typically be stored in a special folder `.ssh`. You will have a public and a private key. 
+
+#### How do I generate a key and upload it to my Github (or GT Github account)?
+
+Windows:
+
+MacOS:
+
+Linux:
+
+#### How do I add my SSH key to a remote cluster like the Rogues Gallery?
+
+Please use ssh-copy-id, which is specifically designed for this!
 
 ### File transfers with SCP and rsync ###
 
