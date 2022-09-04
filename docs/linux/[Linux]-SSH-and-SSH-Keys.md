@@ -1,8 +1,6 @@
 _Last updated: 9/02/22_
 
-SSH and terminal multiplexers like [tmux](https://tmux.github.io/) and [screen](https://www.gnu.org/software/screen/) are essential tools for working on remote servers. Tools like tmux and screen allow you to start a long-running job on a remote system, close the window and SSH session and return later to the same session. See our tmux and mosh page [here](https://github.gatech.edu/crnch-rg/rogues-docs/wiki/%5BMiscellaneous%5D-Using-Mosh-to-Access-CRNCH-Resources/_edit) for more information.
-
-Most of our systems use SSH public and private keypairs to improve their security. Usually this means you have a local password on the remote system that is used for commands like *sudo*, but you do not use this password for logins. Instead, you use a public/private keypair 
+Most of our systems use SSH public and private keypairs to improve their security. Usually this means you have a local password on the remote system that is used for commands like *sudo <command>*, but you do not use this password for logins. Instead, you use a public/private keypair where the private keypair remains on your system and the public keypair is copied to the remote system. You can also use ssh keys to access Git repos [as discussed in this post](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key).
 
 **High-level Tips:**
 
@@ -24,15 +22,26 @@ When you generate a key it will typically be stored in a special folder `.ssh`. 
 
 #### How do I generate a key and upload it to my Github (or GT Github account)?
 
+In all cases, you will need to use ssh-keygen to generate a key then find your public SSH key (`id_rsa.pub` or similar) and upload that to your Github account under: 
+
 Windows:
+
+1) Open Powershell and run `ssh-keygen.exe`
+2) Your key will be under your hidden `.ssh` folder in your home directory.
+    * Typically this is `C:\Users\<your username>\.ssh`
 
 MacOS:
 
 Linux:
 
+1) Open a terminal and run `ssh-keygen`
+2) Your key will be under your the `.ssh` folder in your home directory (`/home/<username/.ssh`).
+
 #### How do I add my SSH key to a remote cluster like the Rogues Gallery?
 
-Please use ssh-copy-id, which is specifically designed for this!
+Please use ssh-copy-id, which is specifically designed for this! Please read more about it [here](https://www.ssh.com/academy/ssh/copy-id).
+
+In short, you log in with your GT username and password and 
 
 ### File transfers with SCP and rsync ###
 
@@ -48,11 +57,11 @@ rsync -av --progress -e ssh largeproject.tar.gz user@rg-login.crnch.gatech.edu:~
 
 ### X11 Forwarding ###
 
-To run graphical applications from a remote server on your local machine, you must use *X Forwarding*. In a Linux environment, you can usually do this by logging in with the ```-X``` flag, but other OSes require specific tools to open the forwarded application. Currently XMing and XQuartz are recommended for Windows and Linux, respectively.
+To run graphical applications from a remote server on your local machine, you must use *X Forwarding* or a different tool like VNC. In a Linux environment, you can usually do this by logging in with the ```-X``` flag, but other OSes require specific tools to open the forwarded application. Currently XMing and XQuartz are recommended for Windows and Linux, respectively.
 
 ### Windows-Specific Information ###
 
-While you can use cygwin or [Bash for Windows](https://msdn.microsoft.com/en-us/commandline/wsl/about) with the Linux-specific directions, [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) and [WinSCP](https://winscp.net/eng/download.php) provide GUI-based tools that allow you to SSH to remote servers and copy files to and from them.
+While you can use cygwin or [Bash for Windows](https://msdn.microsoft.com/en-us/commandline/wsl/about) with the Linux-specific directions, [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) and [WinSCP](https://winscp.net/eng/download.php) provide GUI-based tools that allow you to SSH to remote servers and copy files to and from them. If you have space, we currently recommend that you use [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install), which runs a Linux virtual machine inside of Windows 10 or 11.
 
 - To generate a new key with PuTTY, see the following [guide](https://winscp.net/eng/docs/ui_puttygen#generating_a_new_key).
 - You can then store and reuse that key with Pageant. To integrate Pageant with cygwin see [here](https://github.com/cuviper/ssh-pageant).
@@ -63,14 +72,14 @@ While you can use cygwin or [Bash for Windows](https://msdn.microsoft.com/en-us/
 Create your key as detailed in the OpenSSH tutorial above with ```ssh-keygen -t rsa```. You then can copy your public key (`id_rsa.pub`) to the remote server and store your private key (`id_rsa`) in your local .ssh folder. 
 
 ```
-jeff@mybox:~$ ls -all .ssh/ 
+gburdell@mybox:~$ ls -all .ssh/ 
 total 16
-drwx------  2 jeff jeff 4096 Oct  5 17:23 .
-drwxr-xr-x 19 jeff jeff 4096 Oct  7 12:52 ..
--rw-------  1 jeff jeff  395 Oct  5 17:23 authorized_keys
--rw-------  1 jeff jeff 1743 Oct 1  2015 id_rsa
--rw-------  1 jeff jeff 1743 Oct 1  2015 id_rsa.pub
--rw-r--r--  1 jeff jeff  444 Oct  4 12:48 known_hosts
+drwx------  2 gburdell gburdell 4096 Oct  5 17:23 .
+drwxr-xr-x 19 gburdell gburdell 4096 Oct  7 12:52 ..
+-rw-------  1 gburdell gburdell  395 Oct  5 17:23 authorized_keys
+-rw-------  1 gburdell gburdell 1743 Oct 1  2015 id_rsa
+-rw-------  1 gburdell gburdell 1743 Oct 1  2015 id_rsa.pub
+-rw-r--r--  1 gburdell gburdell  444 Oct  4 12:48 known_hosts
 ```
 
 - **Note:** If you add or modify files in .ssh you will need to set your permissions to 600 (for private files) or 644 (for public files). Otherwise you may not be able to log in.
@@ -158,8 +167,9 @@ Server-side options to secure SSH can usually be found in
 
 If you are having trouble connecting to a server using SSH please try the following:
 
-- Check SSH permissions!
-- Check the logs for SSH under /var/log/auth.log 
+- Check SSH permissions for your .ssh folder!
+    - Correct permissions are 700 for the folder itself and 600 for any keys in the folder. 
+- Check the logs for SSH under /var/log/auth.log on the remote server if you have sudo access on that server. Typically an admin will check to see why you can't log in.
 
 ### SSH Multiplexing ###
 
