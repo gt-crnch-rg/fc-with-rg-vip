@@ -22,4 +22,4 @@ This subteam is focused on near-memory computation and acceleration. A tradition
 * [Cilk Tutorial](https://cilk.scripts.mit.edu/pact21/program.html)
 
 ### Lucata-specific resources
-* Lucata Pathfinder tutorial](https://github.com/gt-crnch-rg/pearc-tutorial-2021)
+* Lucata Pathfinder tutorial]([https://github.com/gt-crnch-rg/pearc-tutorial-2021](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial)
