@@ -5,6 +5,9 @@ This subteam is focused on near-memory computation and acceleration. A tradition
 **Why do we need to avoid big caches?** Some data sets are "sparse" - that is, they have a large number of non-valid elements, like zeroes. Accesses to a sparse data structure cannot be easily cached or predicted because most of the data is not useful, and the data structure itself might be much bigger than a "dense" matrix. A good example of this is data that can be [easily represented as a graph](https://www.educative.io/edpresso/what-is-a-graph-data-structure). As an example, Facebook uses graphs to represent how you and your friends are connected. While a graph data structure can be converted to other formats like a matrix, it is often difficult to process large graphs with today's systems.
 
 ## What are some concepts you should understand?
+
+* Linux
+* Introduction to Parallel Computing - [see the LLNL tutorial on this!](https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial)
 * What is a graph and how are they used?
 * What is a CPU cache and why are they important in today's systems?
 * What is OpenMP and parallel programming in general?
