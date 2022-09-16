@@ -6,8 +6,8 @@ This subteam is focused on near-memory computation and acceleration. A tradition
 
 ## What are some concepts you should understand?
 
-* Linux
-* Introduction to Parallel Computing - [see the LLNL tutorial on this!](https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial)
+* Linux - Missing Semester concepts from MIT
+* Introduction to Parallel Computing - [see the LLNL tutorial on this!](https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial) - Understanding a bit about what parallel computing means is key!
 * What is a graph and how are they used?
 * What is a CPU cache and why are they important in today's systems?
 * What is OpenMP and parallel programming in general?
@@ -22,4 +22,4 @@ This subteam is focused on near-memory computation and acceleration. A tradition
 * [Cilk Tutorial](https://cilk.scripts.mit.edu/pact21/program.html)
 
 ### Lucata-specific resources
-* Lucata Pathfinder tutorial]([https://github.com/gt-crnch-rg/pearc-tutorial-2021](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial)
+* [Lucata Pathfinder tutorial](https://github.com/gt-crnch-rg/lucata-pathfinder-tutorial)
