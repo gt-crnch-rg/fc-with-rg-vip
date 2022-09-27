@@ -21,9 +21,10 @@
 title: Future Computing with Rogues Gallery VIP
 email: jyoung9@gatech.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The aim of the Rogues Gallery Vertically Integrated Project (VIP) class, is to train students to use
+  novel computing architectures, tools, algorithms, and applications. Specifically, it focuses on
+  candidate technologies for post-Moore computing and researching new ways to use these
+  technologies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

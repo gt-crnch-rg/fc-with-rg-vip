@@ -3,10 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-# paginate: true
+alt_title: "Welcome to the Future Computing with the Rogues Gallery VIP"
+image: ./assets/fc-with-rg-collage.jpg
 ---
 
-<img src="./assets/fc-with-rg-collage.jpg" width="100%"/>
+<!-- <img src="./assets/fc-with-rg-collage.jpg" style="align-content: center;"> -->
 
 Georgia Tech's Future Computing with the Rogues Gallery VIP course currently meets at 5:00 PM in Coda 12th floor.
 
