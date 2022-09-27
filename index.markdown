@@ -16,6 +16,9 @@ Georgia Tech's Future Computing with the Rogues Gallery VIP course currently mee
 Please check through the old syllabus, documents, and the old posters to see previous projects for this VIP. Additionally, please check out the [suggested projects page](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/main/docs/students/%5BNew%20Students%5D%20Current%20and%20Suggested%20Projects.md).
 You can also find the [Fall 2022 syllabus](syllabus/Syllabus-VIP-Rogues-Gallery-Fall-2022.pdf) at the following [page](syllabus/Syllabus-VIP-Rogues-Gallery-Fall-2022.pdf).
 
+## Course Resources
+You can find all resources associated with the VIP at the following [page](resources/).
+
 ## Course Wiki
 Students can access the [course wiki](https://github.com/gt-crnch-rg/fc-with-rg-vip/wiki) to see more information about the RG VIP.
 
