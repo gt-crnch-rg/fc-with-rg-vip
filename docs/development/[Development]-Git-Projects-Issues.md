@@ -4,13 +4,19 @@ New project management tools from Github can allow your group to organize tasks 
 
 Similarly, we don't require that students fully utilize "waterfall" or "Agile" development workflows, but we do encourage students to utilize some of the principles from these workflows to help break larger projects down into smaller tasks. With Github, we recommend that you consider breaking tasks into ["Issues"](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) which can then be tied to documentation or code commits. 
 
+For a good overview of Github projects and issues this video provides a good breakdown and demonstration. 
+- [Github Projects 2021 Overview](https://youtu.be/SI1ra-XHWHM?t=137)
+
+We also recommend that you try to break your issues down into small, actionable tasks. One way to do this is presented in this video and related documentation by using task lists.
+- [Break issues down into actionable tasks (video)](https://www.youtube.com/watch?v=BplF7vHXewA)
+- [Task lists](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists)
+
 ## Agile Resources
 Use these resources as a reference! Agile development focuses on small sprints with iterative development and testing, so it can be a good fit for many VIP subteams.
 
 * [Agile project management principles](https://kanbanize.com/agile/project-management/principles)
 
-
-## Resources
+## Other Resources
 
 * [Github Projects (main documentation)](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 * [Github Projects for Personal Productivity](https://github.blog/2022-07-21-tips-tricks-for-using-github-projects-for-personal-productivity/)
