@@ -11,6 +11,17 @@ We also recommend that you try to break your issues down into small, actionable 
 - [Break issues down into actionable tasks (video)](https://www.youtube.com/watch?v=BplF7vHXewA)
 - [Task lists](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists)
 
+## Example for the VIP class
+
+We have created a project that is meant to help new students understand what they should be working on each week. This is not a comprehensive list, but you'll notice that it mixes notes and issues in a Kanban style board. In future semesters, we'll work to demonstrate how this works for new students.
+
+![VIP GH Projects](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/a523c8fdc6b51267f80b038d0491b5fd423814e8/images/github_projects_issues_.png "Github projects for VIP")
+
+We also have created an issue that demonstrates how to use task lists. Notice that this can be a powerful way to breakdown larger issues into smaller tasks.
+
+![VIP GH Task Lists]([https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/a523c8fdc6b51267f80b038d0491b5fd423814e8/images/github_projects_issues_.png](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/a523c8fdc6b51267f80b038d0491b5fd423814e8/images/github_issues_task_lists.png) "Github task lists for VIP")
+
+
 ## Agile Resources
 Use these resources as a reference! Agile development focuses on small sprints with iterative development and testing, so it can be a good fit for many VIP subteams.
 
