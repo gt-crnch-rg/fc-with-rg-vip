@@ -19,7 +19,7 @@ We have created a project that is meant to help new students understand what the
 
 We also have created an issue that demonstrates how to use task lists. Notice that this can be a powerful way to breakdown larger issues into smaller tasks.
 
-![VIP GH Task Lists]([https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/a523c8fdc6b51267f80b038d0491b5fd423814e8/images/github_projects_issues_.png](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/a523c8fdc6b51267f80b038d0491b5fd423814e8/images/github_issues_task_lists.png) "Github task lists for VIP")
+![VIP GH Task Lists](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/a523c8fdc6b51267f80b038d0491b5fd423814e8/images/github_issues_task_lists.png "Github task lists for VIP")
 
 
 ## Agile Resources
