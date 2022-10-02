@@ -15,11 +15,11 @@ We also recommend that you try to break your issues down into small, actionable 
 
 We have created a project that is meant to help new students understand what they should be working on each week. This is not a comprehensive list, but you'll notice that it mixes notes and issues in a Kanban style board. In future semesters, we'll work to demonstrate how this works for new students.
 
-![VIP GH Projects](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/a523c8fdc6b51267f80b038d0491b5fd423814e8/images/github_projects_issues_.png "Github projects for VIP")
+![VIP GH Projects](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/35f0426d9bacc44c17035a48f222ef8f768177f9/images/github_projects_issues.png "Github projects for VIP")
 
 We also have created an issue that demonstrates how to use task lists. Notice that this can be a powerful way to breakdown larger issues into smaller tasks.
 
-![VIP GH Task Lists](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/35f0426d9bacc44c17035a48f222ef8f768177f9/images/github_projects_issues.png "Github task lists for VIP")
+![VIP GH Task Lists](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/a523c8fdc6b51267f80b038d0491b5fd423814e8/images/github_issues_task_lists.png "Github task lists for VIP")
 
 
 ## Agile Resources
