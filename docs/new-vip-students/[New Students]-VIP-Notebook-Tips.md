@@ -19,8 +19,8 @@ Our VIP team uses a wiki-based notebook system for the following reasons:
 2) Paper notebooks are hard to search and difficult for future students to utilize.
 3) We don't want to ask you to pay on a semester basis for services like [LabArchives](https://www.labarchives.com/).
 
-## What makes a good notebook? 
-With all that background, what actually makes a good notebook? It should be detailed enough to 1) show problems you are working on each week in the form of a ToDo List with items you are specifically working on and checking off each week, 2) subteam meeting notes, and 3) technical notes or references to material you have worked on or collected. It may be easiest for you to fill out your notebook _as part of your weekly subteam meeting_ while you are discussing specific research items and ToDos!
+## What makes a good notebook entry? 
+With all that background, what actually makes a good notebook entry? It should be detailed enough to 1) show problems you are working on each week in the form of a ToDo List with items you are specifically working on and checking off each week, 2) subteam meeting notes, and 3) technical notes or references to material you have worked on or collected. It may be easiest for you to fill out your notebook _as part of your weekly subteam meeting_ while you are discussing specific research items and ToDos!
 
 It's perfectly fine to point to a team Github repository and/or wiki for code or references you have collected, and this is encouraged as it helps future students find code you have written and papers you found useful. 
 
@@ -47,3 +47,15 @@ Technical Notes:
 * The Emu Programming Guide has a section on compiling with the simulator versus running on the hardware. We need to remember to use `-- 0 0` when running code on the hardware. These numbers are the timeouts for running on the hardware!
 * Added some sample Emu code snippets on our subteam github repo [here]().
 ```
+
+## Examples of Insufficient Notebook Entries
+
+Please check [the VIP notebook grading rubric](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/main/notebook-grading-examples/RG%20VIP%20simple%20notebook%20rubric.pdf) for a detailed discussion. A **poor notebook is characterized by the following**__:
+
+* Missing updates for more than 1 week. Inconsistent and very short updates for each week.
+    * Notebook tracking starts the second week of each semester, and a good notebook will consistently have entries throughout the semester.
+    * At a basic level the notebook should show what you have done/learned and what you plan to do. 
+* No explanation of work done by the student consistent with the number of hours for the course.
+    * Remember that 1 credit hour should be ~3 hours of work including class/subteam meetings.
+* No discussion of the overall subteam discussion and how the student's work fits into the subteam.
+    * The student should indicate how their work is helping the subteam progress.  
