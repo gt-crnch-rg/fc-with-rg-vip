@@ -50,7 +50,7 @@ Technical Notes:
 
 ## Examples of Insufficient Notebook Entries
 
-Please check [the VIP notebook grading rubric](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/main/notebook-grading-examples/RG%20VIP%20simple%20notebook%20rubric.pdf) for a detailed discussion. A **poor notebook is characterized by the following**__:
+Please check [the VIP notebook grading rubric](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/main/notebook-grading-examples/RG%20VIP%20simple%20notebook%20rubric.pdf) for a detailed discussion. A **poor notebook is characterized by the following**:
 
 * Missing updates for more than 1 week. Inconsistent and very short updates for each week.
     * Notebook tracking starts the second week of each semester, and a good notebook will consistently have entries throughout the semester.
