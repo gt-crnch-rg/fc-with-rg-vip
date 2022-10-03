@@ -1,3 +1,6 @@
+
+---
+
 ## Near-Memory Getting Started Resources
 
 This subteam is focused on near-memory computation and acceleration. A traditional computer system will use "caches" as part of their memory system to keep track of often-used data. A good example is if you are updating an array or matrix that contains elements of an image - you will likely iterate of each row and column of the image in order and you may reuse some rows/columns as you compute on the input image. This type of data can easily be cached and reused to speed up processing. "Near-memory computing" tries to move computation closer to the data it uses to avoid some of the effects of building large caches.

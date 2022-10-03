@@ -12,7 +12,7 @@ Here you can find resources to help you succeed in your VIP.
 
 ### Syllabus
 
-[Spring 2022 Syllabus](syllabus/Syllabus-VIP-Rogues-Gallery-Spring-2022.pdf)
+[Spring 2022 Syllabus](../syllabus/Syllabus-VIP-Rogues-Gallery-Fall-2022.pdf)
 
 ### Course Wiki
 

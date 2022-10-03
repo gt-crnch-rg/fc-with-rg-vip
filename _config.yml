@@ -33,8 +33,49 @@ github_username:  jekyll
 # Build settings
 # theme: jekyll-theme-basically-basic
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
-plugins:
+
+# Plugins
+plugins: # previously gems
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Collections
+collections:
+  resources:
+    output: true
+    permalink: /:collection/:path/
+
+# Front Matter Defaults
+defaults:
+  # development
+  - scope:
+      path: "resources/development"
+      type: posts
+    values:
+      layout: post
+      read_time: true
+  # linux
+  - scope:
+      path: "resources/linux"
+      type: posts
+    values:
+      layout: post
+      read_time: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
