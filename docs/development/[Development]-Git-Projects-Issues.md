@@ -1,6 +1,3 @@
-
----
-
 # Git Projects and Issues
 
 New project management tools from Github can allow your group to organize tasks and assign small tasks to group members to contribute to a larger goal for each semester. Note that we do not require you to use Github projects, but we do suggest that your team utilize Kanban-style organization tools like [Asana](https://asana.com/), [Microsoft Planner (included in Teams)](https://support.microsoft.com/en-us/planner), [Trello](https://trello.com), or [Github Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) where possible. 
