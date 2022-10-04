@@ -57,6 +57,5 @@ Please check [the VIP notebook grading rubric](https://github.com/gt-crnch-rg/fc
     * At a basic level the notebook should show what you have done/learned and what you plan to do. 
 * No explanation of work done by the student consistent with the number of hours for the course.
     * Remember that 1 credit hour should be ~3 hours of work including class/subteam meetings.
-* No detail on the overall subteam discussion and how the student's work fits into the subteam.
-    * The student should indicate how their work is helping the subteam progress and that they are contributing.
-    * Even if the student is focused on learning new skills, there are usually some small items like reading papers that can contribute to the subteam.  
+* No discussion of the overall subteam discussion and how the student's work fits into the subteam.
+    * The student should indicate how their work is helping the subteam progress.  
