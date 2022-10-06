@@ -1,6 +1,3 @@
-
----
-
 # General Student Research Resources
 
 Here are some general research resources - please feel free to suggest or add others!

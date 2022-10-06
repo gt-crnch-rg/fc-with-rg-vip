@@ -1,6 +1,3 @@
-
----
-
 # Presenting Your Work
 
 Pulled from CSE 6001's resources!

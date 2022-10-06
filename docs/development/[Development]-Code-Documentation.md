@@ -1,10 +1,5 @@
 _Last updated: 3/20/20_
 
----
-layout: post
-alt_title: " "
----
-
 # Code Documentation Strategies
 
 Documenting your code is an extremely important skill and one that will pay dividends as you revisit old projects in the future. It also helps communicate your intent for complex code regions to other programmers and even users of your codebase. Here we review some tips for code documentation and for general wiki documentation. 

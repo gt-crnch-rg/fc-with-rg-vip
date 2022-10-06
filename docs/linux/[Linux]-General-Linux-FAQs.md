@@ -1,6 +1,3 @@
-
----
-
 ## What do you need to know to do about Linux to be an effective researcher?
 While every lab is different, we typically use Linux and the command line for some subset of research tasks. In part, this is because much of our "post-Moore" equipment is remotely accessible. It's not always feasible to work with certain tools or hardware from the GUI.
 
