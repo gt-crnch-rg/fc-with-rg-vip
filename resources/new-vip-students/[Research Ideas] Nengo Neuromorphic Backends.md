@@ -1,3 +1,6 @@
+
+---
+
 ## Why is This an Important Research Topic?
 Nengo provides a common abstraction for developing SNNs using neurons and ensembles. Mapping new backends enables us to use the same codebase to target new and novel architectures.
 

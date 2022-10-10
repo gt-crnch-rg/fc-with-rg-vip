@@ -1,3 +1,6 @@
+
+---
+
 ## General Tips
 Take advantage of the many GT resources for crafting a solid resume! 
 * [C2D2 Resume Tips](https://career.gatech.edu/crafting-resume)
