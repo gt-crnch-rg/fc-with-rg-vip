@@ -37,6 +37,7 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 # Plugins
 plugins: # previously gems
   - jekyll-seo-tag
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-remote-theme
 
