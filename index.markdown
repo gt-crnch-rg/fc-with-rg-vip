@@ -22,4 +22,4 @@ You can find all resources associated with the VIP at the following [page](resou
 ## [Course Wiki](https://github.com/gt-crnch-rg/fc-with-rg-vip/wiki)
 Students can access the [course wiki](https://github.com/gt-crnch-rg/fc-with-rg-vip/wiki) to see more information about the RG VIP.
 
-Current Instructor: [Dr. Jeffrey Young](https://jyoung3131.github.io/)
+Current Instructors: [Dr. Jeffrey Young](https://jyoung3131.github.io/), [Dr. Aaron Jezghani](https://pace.gatech.edu/node/3096)
