@@ -27,8 +27,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   technologies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: GT_CRNCH_RG
+github_username:  gt-crnch-rg/fc-with-rg-vip
 
 # Build settings
 # theme: jekyll-theme-basically-basic
@@ -36,7 +36,6 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
 # Plugins
 plugins: # previously gems
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-remote-theme
