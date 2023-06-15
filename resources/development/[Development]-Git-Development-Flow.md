@@ -37,6 +37,6 @@ The most important command to remember here is some form of `git fetch origin pu
 
 git rebase and git merge do very similar operations.
 * [Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
-* Should I rebase? Often, the answer seems to be [no](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing), especially for publicly shared branches like master in a project. 
+* [Should we rebase?](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing), especially for publicly shared branches like master in a project. 
 
 For more information, please check out Graham Lopez's [page on this topic](https://grahamlopez.org/git/confusion.html#merge-vs-rebase-vs-cherrypick).
