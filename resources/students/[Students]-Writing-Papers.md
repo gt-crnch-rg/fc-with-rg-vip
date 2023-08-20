@@ -15,3 +15,6 @@ steven pinker sense of style
 
 ## Writing paper rebuttals
 * [Devi Parikh - How we write rebuttals](https://medium.com/@deviparikh/how-we-write-rebuttals-dc84742fece1)
+
+## Tips for Writing a PhD Thesis
+* [Dissertation Advice, by Olin Shivers](http://web.cs.ucla.edu/~palsberg/shivers.html)
