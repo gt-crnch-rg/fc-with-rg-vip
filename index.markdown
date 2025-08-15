@@ -11,12 +11,12 @@ image: ./assets/fc-with-rg-collage.jpg
 
 ## Future Computing with the Rogues Gallery VIP
 
-**Fall 2023 Meeting Time**: 11:00-11:50 AM ET, Coda 12th floor.
+**Fall 2025 Meeting Time**: Wednesdays, 11:00-11:50 AM ET, Klaus 2446.
 
 This website contains public information on Georgia Tech's Future Computing with the Rogues Gallery VIP course.
 
 Please check through the old syllabus, documents, and the old posters to see previous projects for this VIP. Additionally, please check out the [suggested projects page](https://github.com/gt-crnch-rg/fc-with-rg-vip/blob/main/resources/new-vip-students/%5BNew%20Students%5D%20Current%20and%20Suggested%20Projects.md).
-You can also find the Fall 2022 syllabus at the following [page](syllabus/Syllabus-VIP-Rogues-Gallery-Fall-2022.pdf).
+You can also find a recent course syllabus at the following [page](https://github.com/gt-crnch-rg/fc-with-rg-vip/tree/main/syllabus).
 
 ## [Course Resources](resources/index.md)
 You can find all resources associated with the VIP at the following [page](resources/).
