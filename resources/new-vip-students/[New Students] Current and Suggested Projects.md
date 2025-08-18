@@ -19,14 +19,11 @@ Reviewing the following is highly suggested. You don't have to be an expert but 
 * **Relevant courses**: CX 4220/CSE 6220 (high-performance computing), CS 4290/6290; ECE 4100/6100 (computer architecture), CS 6220 (data analytics)
 * **Future opportunities:** 
 
-### Suggested Neuromorphic Projects
-* Continue work on the NeuroCar platform and map existing simulation infrastructure and models to a Raspberry PI-based vehicle platform
-* Work with the [Field Programmable Analog Array](https://en.wikipedia.org/wiki/Field-programmable_analog_array) device to design an interface between the PYNN simulator and this novel hardware.
-* Evaluate TensorFlow and eventually Nengo implementations for tasks defined by the [OpenAI Gym](https://gym.openai.com/). These types of tasks are more complicated benchmarks that provide examples of complicated problems that neuromorphic systems could solve efficiently. 
+### Suggested Novel HPC Projects
+* TBD
 
-### Near-memory Resources
-* [Main Pathfinder Getting Started Page](https://gt-crnch-rg.readthedocs.io/en/main/lucata/lucata-getting-started.html)
-* [GT Github for the VIP team](https://github.gatech.edu/crnch-rg/vip-near-mem-team)
+### Novel HPC Resources
+* TBD
 
 ## Neuromorphic ##
 
